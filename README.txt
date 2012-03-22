@@ -14,7 +14,8 @@ Rules:
 	
 
 Usage Example: 
-		java -cp Life.jar Life path/To/InputFile path/To/OutputFile numberOfGenerations
+		java -cp Life.jar Life path/To/InputFile path/To/OutputFile 
+		numberOfGenerations
 		
 
 
