@@ -2,20 +2,20 @@ Author: Wilson Giese - giese.wilson@gmail.com
 Program: Conway's Game of Life
 
 About:  
-		This program implements a sparse array to run cellular automation with the rules
-       	from John Conway's game of life. 
+	This program implements a sparse array to run cellular automation 
+	with the rulesfrom John Conway's game of life. 
 
 
 Rules: 
- 		If a live cell has less than 2 neighbors, the cell dies. 
-	   	If a live cell has between 2 - 3 neighbors, the cell lives. 
-	   	If a live cell has more than 3 neighbors, the cell dies. 
-	   	If a dead cell has exactly three live neighbors, the becomes alive. 
+ 	If a live cell has less than 2 neighbors, the cell dies. 
+	If a live cell has between 2 - 3 neighbors, the cell lives. 
+	If a live cell has more than 3 neighbors, the cell dies. 
+	If a dead cell has exactly three live neighbors, the becomes alive. 
 	
 
 Usage Example: 
-		java -cp Life.jar Life path/To/InputFile path/To/OutputFile 
-		numberOfGenerations
+	java -cp Life.jar Life path/To/InputFile path/To/OutputFile 
+	numberOfGenerations
 		
 
 
