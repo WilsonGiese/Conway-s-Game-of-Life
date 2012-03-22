@@ -3,7 +3,7 @@ Program: Conway's Game of Life
 
 About:  
 	This program implements a sparse array to run cellular automation 
-	with the rulesfrom John Conway's game of life. 
+	with the rules from John Conway's game of life. 
 
 
 Rules: 
@@ -14,8 +14,7 @@ Rules:
 	
 
 Usage Example: 
-	java -cp Life.jar Life path/To/InputFile path/To/OutputFile 
-	numberOfGenerations
+	java  -cp  Life.jar  Life  inputFile  outputFile  numGenerations(integer)
 		
 
 
