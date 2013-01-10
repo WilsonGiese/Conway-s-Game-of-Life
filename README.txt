@@ -10,11 +10,11 @@ Rules:
  	If a live cell has less than 2 neighbors, the cell dies. 
 	If a live cell has between 2 - 3 neighbors, the cell lives. 
 	If a live cell has more than 3 neighbors, the cell dies. 
-	If a dead cell has exactly three live neighbors, the becomes alive. 
+	If a dead cell has exactly three live neighbors, the cell becomes alive. 
 	
 
 Usage Example: 
-	java  -cp  Life.jar  Life  inputFile  outputFile  numGenerations(integer)
+	java Life <input_file> <output_file> <number of generations>
 		
 
 
